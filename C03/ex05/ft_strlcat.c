@@ -38,5 +38,5 @@ unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 		i++;
 	}
 	*(dest + d_len + i) = '\0';
-	return (d_len + s_len);
+	return (s_len + size);
 }
